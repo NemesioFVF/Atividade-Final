@@ -1,0 +1,117 @@
+
+#p1 {
+    display: flex;
+    padding: 5%;
+    background: black;
+}
+
+#p1 p{
+    font-size: 50px;
+    color: rgb(248, 252, 27);
+    font-weight: 500;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: justify;
+    transition: all 0.6s ease;
+}
+
+#p1 p:hover {
+
+    color: rgb(253, 253, 253);
+    transition: all 0.6s ease;
+}
+
+#p1 img {
+    width: 500px;
+    margin-left: 5%;
+}
+
+#p1 img:hover {
+    width: 300px;
+  
+}
+
+
+#p2 {
+    display: flex;
+    padding: 5%;
+    background: rgb(71, 1, 1);
+}
+
+#p2 p{
+    font-size: 50px;
+    color: rgb(253, 253, 253);
+    font-weight: 500;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: justify;
+    transition: all 0.6s ease;
+}
+
+#p2 img {
+    width: 500px;
+    margin-right: 5%;
+
+}
+
+
+#p2 p:hover {
+
+    color: rgb(248, 252, 27);
+    transition: all 0.6s ease;
+}
+
+#p2 img {
+    width: 500px;
+    margin-left: 5%;
+}
+
+#p2 img:hover {
+    width: 300px;
+
+}
+
+#link {
+    
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    background: rgb(160, 153, 153);
+}
+
+#link a{
+    
+    border: 1px solid  rgb(248, 252, 27);
+    border-radius: 3px;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 20px 25px;
+    color: rgb(248, 252, 27);
+    background: rgb(71, 1, 1);
+    transition: all 0.6s ease;
+
+}
+
+#link a:hover {
+
+    background: rgb(248, 252, 27) !important;
+    color: rgb(71, 1, 1);
+    border: 1px solid  rgb(71, 1, 1);
+    transition: all 0.6s ease;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+
+    background: #fcabab;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #ffc457d2;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #770101;
+}
